@@ -1,0 +1,24 @@
+﻿Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,5769.83,69237.96,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+Reduced_Cost_Estimate,US East (N. Virginia),,Amazon EC2 ,0,2077.872,24934.46,USD,,"Tenancy (Dedicated Instances), Operating system (Linux), Workload (Consistent, Number of instances: 2), Advance EC2 instance (m6g.4xlarge), Pricing strategy ( 1yr  No Upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Reduced_Cost_Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,2915.52,34986.24,USD,,"Storage amount (30 GB), Storage for each RDS instance (General Purpose SSD (gp2)), Nodes (1), Instance type (db.m5.8xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (Reserved 1yr No Upfront), Total Size of Backup Processed for Export (GB) (30 per month)"
+Reduced_Cost_Estimate,US East (N. Virginia),,Application Load Balancer,0,37.52,450.24,USD,,Number of Application Load Balancers (2)
+Reduced_Cost_Estimate,US East (N. Virginia),,Amazon CloudFront,0,0,0,USD,,
+Reduced_Cost_Estimate,US East (N. Virginia),,S3 Standard,0,2.3,27.6,USD,,S3 Standard storage (100 GB per month)
+Reduced_Cost_Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,,
+Reduced_Cost_Estimate,US East (N. Virginia),,Amazon Route 53,0,183,2196,USD,,"Hosted Zones (1), Number of Elastic Network Interfaces (2)"
+Reduced_Cost_Estimate,US East (N. Virginia),,VPN Connection,0,487.92,5855.04,USD,,"Working days per month (22), Number of subnet associations (2), Number of Site-to-Site VPN Connections (2)"
+Reduced_Cost_Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,65.7,788.4,USD,,Number of NAT Gateways (2)
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+change EC2 instances from c6g.xlarge to m6g.4xlarge and select Standard Reserved Instances,,,,,,,,,
+change RDS instance from db.m5.12xlarge  to db.m5.8xlarge and select Standard Reserved 1 years,,,,,,,,,
